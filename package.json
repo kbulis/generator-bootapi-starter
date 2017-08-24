@@ -1,6 +1,6 @@
 {
   "name": "generator-bootapi-starter",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Just another angular eclipse spring boot java api yeoman generator.",
   "homepage": "https://github.com/kbulis/generator-bootapi-starter",
   "repository": "kbulis/generator-bootapi-starter",
