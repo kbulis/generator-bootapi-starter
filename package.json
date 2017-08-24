@@ -1,0 +1,55 @@
+{
+  "name": "generator-bootapi-starter",
+  "version": "0.9.1",
+  "description": "Just another angular eclipse spring boot java api yeoman generator.",
+  "homepage": "https://github.com/kbulis/generator-bootapi-starter",
+  "repository": "kbulis/generator-bootapi-starter",
+  "license": "ISC",
+  "author": {
+    "name": "Kirk Bulis",
+    "email": "kirk.d.bulis@gmail.com",
+    "url": "http://github.com/kbulis"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "spring boot",
+    "java"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.6.0",
+    "yeoman-assert": "^3.0.0",
+    "nsp": "^2.6.3",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^1.0.0",
+    "chalk": "^2.0.1",
+    "yosay": "^2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "generators"
+    ]
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  }
+}

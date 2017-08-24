@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Kirk Bulis",
+      "authorEmail": "kirk.d.bulis@gmail.com",
+      "authorUrl": "http://github.com/kbulis"
+    }
+  }
+}
